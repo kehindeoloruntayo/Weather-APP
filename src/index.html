@@ -1,0 +1,137 @@
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Weather App ☁️</h1>
+      <p>Your source for up-to-date weather information</p>
+    </header>
+
+    <!-- Tab Buttons -->
+    <button class="tab active" id="locationTab">Search by Location</button>
+    <button class="tab" id="latlongTab">Search by Latitude and Longitude</button>
+    <button class="tab" id="citycountryTab">Search by City Name and Country Code</button>
+
+    <!-- Location Method -->
+    <div class="location-method">
+      <label class="location-label" for="location">Enter a location:</label>
+      <input id="location" class="location-input" type="text">
+    </div>
+
+    <!-- Latitude and Longitude Method -->
+    <div class="latlong-method">
+      <label class="location-label" for="latitude">Enter the latitude:</label>
+      <input id="latitude" class="location-input" type="number">
+      <label class="location-label" for="longitude">Enter the longitude:</label>
+      <input id="longitude" class="location-input" type="number">
+    </div>
+
+    <!-- City Name and Country Code Method -->
+    <div class="citycountry-method">
+      <label class="town-label" for="town">Enter a City Name:</label>
+      <input id="town" class="location-input" type="text">
+      <label class="code-label" for="code">Enter the Country Code:</label>
+      <input id="code" class="location-input" type="text">
+    </div>
+
+    <!-- Button -->
+    <button class="btn" id="weatherLocation">Get Current Details</button>
+
+    <!-- Result Container -->
+    <section class="id1">
+      <div class="result showErrors"></div>
+      <div class="result showHumidity"></div>
+      <div class="result showTemp"></div>
+      <div class="result showWeather"></div>
+      <div class="result showDescription"></div>
+      <div class="result showWindspeed"></div>
+      <div class="result showCountry"></div>
+      <div class="result showTimezone"></div>
+    </section>
+    <section class="id2">
+      <div class="result newErrors"></div>
+      <div class="result newHumidity"></div>
+      <div class="result newTemp"></div>
+      <div class="result newWeather"></div>
+      <div class="result newDescription"></div>
+      <div class="result newWindspeed"></div>
+      <div class="result newCountry"></div>
+      <div class="result newTimezone"></div>
+    </section>
+    <section class="id3">
+      <div class="result otherErrors"></div>
+      <div class="result otherHumidity"></div>
+      <div class="result otherTemp"></div>
+      <div class="result otherWeather"></div>
+      <div class="result otherDescription"></div>
+      <div class="result otherWindspeed"></div>
+      <div class="result otherCountry"></div>
+      <div class="result otherTimezone"></div>
+    </section>
+
+    <!-- Forecast Section -->
+    <section class="forecast-section">
+      <h2>Weather Forecast</h2>
+      <div class="forecast-card">
+        <h3>Monday</h3>
+        <img src="" class="forecast" alt="Sunny">
+        <p>High: 25°C</p>
+        <p>Low: 15°C</p>
+      </div>
+      <div class="forecast-card">
+        <h3>Tuesday</h3>
+        <img src="" class="forecast" alt="Partly Cloudy">
+        <p>High: 22°C</p>
+        <p>Low: 14°C</p>
+      </div>
+      <div class="forecast-card">
+        <h3>Wednesday</h3>
+        <img src="" class="forecast" alt="Rainy">
+        <p>High: 18°C</p>
+        <p>Low: 11°C</p>
+      </div>
+    </section>
+
+    <!-- Weather Alert Section -->
+    <!-- <section class="alert-section">
+      <h2>Weather Alerts</h2>
+      <div class="alert-card">
+        <h3>Severe Thunderstorm Warning</h3>
+        <p>Issued for your area. Take precautions.</p>
+      </div>
+    </section> -->
+
+    <!-- Discover Section -->
+    <section class="discover-section">
+      <h2>Discover</h2>
+      <div class="discover-card">
+        <img src="" alt="News Image">
+        <h3>MohBad is Dead!</h3>
+        <p>Ilerioluwa Oladimeji Aloba (8 June 1996 - 12 September 2023), known professionally as MohBad, was a Nigerian
+          rapper, singer, and songwriter from Lagos. He was formerly signed to Naira Marley's Marlian Records and left
+          the label in 2022. He was best known for his hit singles "Ponmo, Feel Good", and "KPK"...
+        </p>
+        <a href="https://en.wikipedia.org/wiki/MohBad">Read More</a>
+      </div>
+      <div class="discover-card">
+        <img src="" alt="News Image">
+        <h3>Man City recover from Red Star shock for winning Champions League start</h3>
+        <p>Julian Alvarez saved Manchester City's blushes after Red Star Belgrade took a shock lead at the Etihad as the
+          holders began their Champions League defence with a 3-1 win on Tuesday.</p>
+        <a href="https://guardian.ng/sport/man-city-recover-from-red-star-shock-for-winning-champions-league-start/">Read
+          More</a>
+      </div>
+      <!-- Add more news cards as needed -->
+    </section>
+
+  </div>
+</body>
+
+</html>
