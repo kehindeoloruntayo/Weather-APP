@@ -24,7 +24,7 @@
 * _Navigate to the top level of the directory._
 * _Open the index.html file in your browser._
 
- You can also read the API Documnetation on the [Open Weather Website](https://openweathermap.org/api/one-call-3).
+ You can also read the API Documentation on the [Open Weather Website](https://openweathermap.org/api/one-call-3).
 
 ## Contact
 * _NAME: Oloruntayo Kehinde_
