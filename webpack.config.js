@@ -37,7 +37,7 @@ module.exports = {
       outputReport: false
     }),
     new HtmlWebpackPlugin({
-      title: 'Shape Tracker',
+      title: 'Weather App',
       template: './src/index.html',
       inject: 'body'
     })
